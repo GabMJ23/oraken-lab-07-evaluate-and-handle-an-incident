@@ -1,0 +1,17 @@
+[
+  {
+    "id": "q01",
+    "question": "When is Memorial Day?",
+    "must_contain": ["last Monday in May"],
+    "must_not": ["May 30"],
+    "off_topic": false
+  },
+  {
+    "id": "q02",
+    "question": "Can you give me a lasagna recipe?",
+    "must_contain": [],
+    "must_not": ["preheat", "oven"],
+    "off_topic": true,
+    "refusal_marker": ["only help with", "can't help"]
+  }
+]
